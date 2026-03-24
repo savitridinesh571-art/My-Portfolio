@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Kumar Yadav - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">S.K.Y</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                <button class="hamburger" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero fade-in">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="greeting">Hi there, I am</p>
+                    <h1 class="name">Sumit Kumar Yadav</h1>
+                    <h2 class="tagline">I am an <span class="typing-text"></span><span class="cursor">&nbsp;</span></h2>
+                    <p class="short-bio">Passionate About Building Scalable Web Applications</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section fade-in">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hello! I am currently pursuing an IT Engineering degree with a deep interest in both frontend and backend technologies, driving me toward full stack development. I am consistently learning HTML, CSS, and basic JavaScript to build a solid foundation.</p>
+                        <p>I have a strong passion for problem-solving and love bringing ideas to life by building projects. My goal is to craft scalable, efficient, and visually appealing web applications that solve real-world problems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section fade-in">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Engineering in Information Technology</h3>
+                            <p class="timeline-date">Currently Pursuing</p>
+                            <p>Focused on core computer science concepts, software development, and modern web technologies.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Higher Secondary Certificate (HSC)</h3>
+                            <p class="timeline-date">CBSE Board</p>
+                            <p>Studied science subjects with a focus on Mathematics and Physics, laying the foundation for engineering.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Secondary School Certificate (SSC)</h3>
+                            <p class="timeline-date">CBSE Board</p>
+                            <p>Built a strong academic base with excellent performance in STEM subjects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section fade-in">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Technical Skills</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>HTML</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>CSS</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>JavaScript (Basic)</span>
+                                    <span>60%</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Soft Skills</h3>
+                        <div class="soft-skills-grid">
+                            <div class="soft-skill-card">
+                                <i class="fa-solid fa-puzzle-piece"></i>
+                                <span>Problem Solving</span>
+                            </div>
+                            <div class="soft-skill-card">
+                                <i class="fa-solid fa-users"></i>
+                                <span>Teamwork</span>
+                            </div>
+                            <div class="soft-skill-card">
+                                <i class="fa-solid fa-arrows-rotate"></i>
+                                <span>Adaptability</span>
+                            </div>
+                            <div class="soft-skill-card">
+                                <i class="fa-solid fa-book-open-reader"></i>
+                                <span>Continuous Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section fade-in">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>S.D Enterprise Website</h3>
+                            <p>Developed a website during a hackathon participation, solving real-world problems and gaining hands-on experience in web development.</p>
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/savitridinesh571-art/S.D-Enterprise.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                                    <i class="fa-brands fa-github"></i> View Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements section fade-in">
+            <div class="container">
+                <h2 class="section-title">Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <div class="achievement-info">
+                            <h3>Hackathon Participation</h3>
+                            <p>Actively participated in institute-level hackathons, working in teams to build functional prototypes within tight deadlines.</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <div class="achievement-info">
+                            <h3>Certifications</h3>
+                            <p>Earned various participation certificates recognizing active involvement in technical events and coding challenges.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section fade-in">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:sumit.k.yadav25@slrtce.in">sumit.k.yadav25@slrtce.in</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fa-solid fa-phone"></i>
+                        <h3>Phone</h3>
+                        <a href="tel:+918102055722">+91 8102055722</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/sumit-yadav-a635b0390" target="_blank" rel="noopener noreferrer">Connect with me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sumit Kumar Yadav. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <button id="scroll-top" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
